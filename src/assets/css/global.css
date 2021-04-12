@@ -3,6 +3,7 @@ html,body,#app {
     width: 100%;
     height: 100%;
     margin: 0;
+    min-width: 1399px;
 }
 /* 好几个页面需要 所以写到全局里 */
 .el-breadcrumb {
