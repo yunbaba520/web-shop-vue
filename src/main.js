@@ -16,10 +16,12 @@ axios.defaults.baseURL='http://127.0.0.1:8888/api/private/v1/'
   //必须return
   return config
 }) 
+import TreeTable from 'vue-table-with-tree-grid'
 Vue.prototype.$http = axios
 
 
 Vue.config.productionTip = false
+Vue.component('tree-table',TreeTable)
 
 new Vue({
   router,
