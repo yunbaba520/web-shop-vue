@@ -86,7 +86,7 @@
       :visible.sync="editDialogVisible"
       width="50%"
     >
-      <span>还没写</span>
+      <span>接口崩了，兄弟请回吧</span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="editDialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="editDialogVisible = false"
@@ -130,7 +130,7 @@ export default {
       }
       this.$message.success('获取商品列表成功')
 
-      console.log(res)
+     // console.log(res)
       this.goodsList = res.data.goods
       this.total = res.data.total
     },
